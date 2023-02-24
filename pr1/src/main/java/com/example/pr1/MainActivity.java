@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main);//Сделать видимым
         Context context = getApplicationContext();
         String text = "On create TOAST";
         int duration = Toast.LENGTH_SHORT;
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        Context context = getApplicationContext();
+        Context context = getApplicationContext(); //Получение состояния приложения
         String text = "On start TOAST";
         int duration = Toast.LENGTH_SHORT;
         Toast toast = Toast.makeText(context, text, duration);
