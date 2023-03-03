@@ -5,7 +5,6 @@
     android:layout_height="match_parent">
 
     <RelativeLayout
-        android:id="@+id/relativeLayout"
         android:layout_width="0dp"
         android:layout_height="fill_parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -15,18 +14,14 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/img"
-            android:id="@+id/picture_of_cookie"
-            />
+            android:src="@drawable/img" />
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="This is edit text"
             android:textSize="15pt"
-            android:text=""
-            android:id="@+id/text_above_cookie"
-            />
+            android:text="" />
 
         <TextView
             android:layout_width="fill_parent"
