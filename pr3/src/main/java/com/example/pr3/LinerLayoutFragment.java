@@ -44,6 +44,7 @@ public class LinerLayoutFragment extends Fragment  {
                              Bundle savedInstanceState) {
         Log.d(TAG, "onCreateView");
         Toast.makeText(getActivity(), "On createView", Toast.LENGTH_SHORT).show();
+
         return inflater.inflate(R.layout.fragment_liner_layout, container, false);
     }
 
