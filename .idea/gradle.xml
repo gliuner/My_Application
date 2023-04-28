@@ -11,12 +11,15 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/myapplication" />
             <option value="$PROJECT_DIR$/pr1" />
             <option value="$PROJECT_DIR$/pr2" />
             <option value="$PROJECT_DIR$/pr3" />
             <option value="$PROJECT_DIR$/pr4" />
             <option value="$PROJECT_DIR$/pr5" />
             <option value="$PROJECT_DIR$/pr6" />
+            <option value="$PROJECT_DIR$/pr7" />
+            <option value="$PROJECT_DIR$/pr8" />
           </set>
         </option>
       </GradleProjectSettings>
